@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="Chart.min.js"></script>
   <script src="getData.js"></script>
-
+  <title>Windspeed_author:M.Ø</title>
 </head>
 <body>
   <div class="container">
@@ -49,6 +49,8 @@ options: {
 }
 });
 
+
+//function that adds data to the chart. mps for the first dataset, perc for the second one.
 function addData(chart, label, mps, perc) {
   this.chart = chart;
   this.label = label;
