@@ -1,0 +1,49 @@
+
+ul.superListStyle {
+    list-style-type: none;
+    font-size: 1.5em;
+    font-family: 'Asap Condensed', sans-serif;
+    border: 1px solid grey;
+    padding-left: 0px;
+    margin:20px;
+    width: 500px;
+}
+
+ul.superListStyle>li {
+    cursor: pointer;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+
+ul.superListStyle>:last-child {
+    border-bottom: none;
+}
+
+ul.superListStyle>li:hover {
+    box-shadow: 0 0 5px lightgrey;
+}
+
+ul.superListStyle>li:focus {
+    outline: none;
+}
+
+li h1 {
+  flex: 1;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+li p {
+  font-family: 'Asap Condensed', sans-serif;
+  padding: 10px;
+}
+li img {
+  flex: 0;
+  padding:0px;
+}
+
+.selected {
+    background-color: darkorange;
+    color: white;
+}

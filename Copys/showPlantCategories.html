@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Plant and herbs</title>
+    <link href="superlist.css" rel="stylesheet" />
+    <script src="superlist.js"></script>
+    <script src="superfetch.js"></script>
+</head>
+
+<body>   
+</body>
+<style>   
+    * {padding: 0; margin: 0}
+    p {padding: 5px !important}
+</style>
+    
+<script>
+    
+    //init --------------------------------------------------    
+    //create a new superlist and append it to the body-tag
+    var mylist = superlist();
+    document.body.appendChild(mylist);
+    
+    //load the JSON-data (array)
+    superfetch("http://sukkergris.no/plantcategories/", "json", success, fail);
+    
+    //success -----------------------------------------------
+    function success(data) {
+        
+        //retrieving the categories from the data-array and fill the list
+        for (var i = 0; i < data.length; i++) {
+            
+            var ctg = data[i].kategori;
+            var html = "<p>" + ctg + "</p>";
+            mylist.addElement(html, ctg);
+        }        
+        
+        //register event handler
+        mylist.addEventListener("change", onlistchange);
+        
+    }
+    
+    //fail -------------------------------------------------
+    function fail(error) {        
+        console.log(error);        
+    }
+    
+    //onlistchange -----------------------------------------
+    function onlistchange(evt) {
+        
+        var ctg = evt.selectedValue;
+        console.log(ctg);        
+    }
+    
+    //script end -------------------------------------------
+    
+</script>
+    
+</html>

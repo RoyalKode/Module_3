@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chocolate info</title>
+    
+    <script src="superfetch.js"></script>
+</head>
+
+<body>    
+    
+    <img id="image" /> 
+    <h1 id="chocname"></h1>       
+    <p id="descr"></p>
+    <hr>    
+    
+</body>
+    
+<script>
+    
+    //an object with some data
+    var choc = {
+        name: "Rum & cherry", 
+        description: "Kirsebær i rom-likør",
+        img_small: "http://sukkergris.no/konfekt/bilder_s/Pralin_cherry_soft_gel.jpg" 
+    };
+    
+    //showing data on the webpage using 3 different methods
+    
+    //method 1: inserting data into predefined html elements    
+    document.getElementById("image").src = choc.img_small;
+    document.getElementById("chocname").innerHTML = choc.name;
+    document.getElementById("descr").innerHTML = choc.description;
+    
+    //method 2: creating html-text and appending it to an element
+    var html = "<img src='" + choc.img_small + "'>";
+    html += "<h1>" + choc.name + "</h1>";
+    html += "<p>" + choc.description + "</p>";
+    html += "<hr>";   
+    document.body.innerHTML += html;
+    
+    //method 3: creating html-elements and appending them to an element
+    var img = document.createElement("img");
+    var h1 = document.createElement("h1");
+    var p = document.createElement("p");
+    var hr = document.createElement("hr");
+    
+    img.src = choc.img_small;
+    h1.innerHTML = choc.name;
+    p.innerHTML = choc.description;
+    
+    document.body.appendChild(img);
+    document.body.appendChild(h1);
+    document.body.appendChild(p);
+    document.body.appendChild(hr);    
+    
+</script>
+    
+</html>

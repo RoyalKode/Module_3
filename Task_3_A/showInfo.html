@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="superfetch.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
+  <title>PlantInfo</title>
+</head>
+<body>
+
+</body>
+<style>
+ * {
+   font-family: 'Asap Condensed', sans-serif;
+ }
+</style>
+<script>
+var selectedplant = localStorage.getItem('selectedplant');
+var plantId = JSON.parse(selectedplant);
+
+console.log(plantId);
+
+superfetch(
+  "http://sukkergris.no/plant/?id=" + plantId,
+  "json",
+   success,
+   fail
+);
+
+function success(data) {
+console.log(data);
+
+  var rep = data.bildefil;
+  console.log(rep);
+  var largePicture = rep.replace("png", "jpg");
+
+  var htmlString = " ";
+
+  htmlString += "<h1>" + data.navn + "</h1>";
+  htmlString += "<img src='" + "http://sukkergris.no/plants/images/large/" + largePicture + "'>";
+  htmlString += "<h2>" + "Kategori: " + data.kategori + "</h2>";
+  htmlString += "<p>" + data.beskrivelse + "</p>";
+  htmlString += "<p>" + data.pris + ",-" + "</p>";
+
+  this.getPictureIndex = function() {
+
+  }
+  document.body.innerHTML += htmlString;
+
+}
+
+
+function fail(error) {
+  console.log("error");
+}
+
+
+</script>
+</html>

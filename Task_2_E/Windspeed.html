@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="Chart.min.js"></script>
+  <script src="getData.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="windChart">
+      <canvas id="windSpeedChart"></canvas>
+    </div>
+  </div>
+
+
+</body>
+<script>
+
+  window.onload = loadXMLDoc;
+
+var ctx = document.getElementById('windSpeedChart').getContext('2d');
+//windChart ----------------------------
+var windChart = new Chart(ctx, {
+type: 'line',
+data: {
+    labels: [],
+    datasets: [{
+        label: 'Wind in mps',
+        data: [],
+        backgroundColor: ['rgba(64, 159, 255, 0.2)'],
+        borderColor: ['rgba(255,99,132,1)'],
+        borderWidth: 1
+    }, {
+        label: 'precipitation',
+        data: [],
+        backgroundColor: ['rgba(255, 159, 64, 0.2)'],
+        borderColor: ['rgba(255,99,132,1)'],
+        borderWidth: 1
+    }]
+},
+options: {
+    elements: {
+        line: {
+            tension: 0,
+        }
+    }
+}
+});
+
+function addData(chart, label, mps, perc) {
+  this.chart = chart;
+  this.label = label;
+  this.mps = mps;
+  this.perc = perc;
+
+  chart.data.labels.push(label);
+  chart.data.datasets[0].data.push(mps);
+  chart.data.datasets[1].data.push(perc);
+
+  chart.update();
+}
+
+
+
+</script>
+</html>

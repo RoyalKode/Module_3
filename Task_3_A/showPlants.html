@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="superfetch.js"></script>
+  <script src="superlist_img.js"></script>
+  <link rel="stylesheet" href="superlist.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Asap+Condensed" rel="stylesheet">
+  <title>Plants</title>
+</head>
+<body>
+
+</body>
+<style>
+    * {padding: 0; margin: 0}
+    p {padding: 5px !important}
+</style>
+<script>
+    var selectedCategory = localStorage.getItem('selectedCategory');
+    var kategori = JSON.parse(selectedCategory);
+
+    console.log(kategori);
+
+    var liste = superlist();
+    document.body.appendChild(liste);
+
+
+    superfetch(
+      "http://sukkergris.no/plants/?category=" + kategori,
+      "json",
+       success,
+       fail
+    );
+
+  function success(data) {
+  console.log(data);
+
+    for (var i = 0; i < data.length; i++) {
+
+      var bilde = "<img src='" + "http://sukkergris.no/plants/images/small/" + data[i].bildefil + "'>"
+      var ctg = data[i].navn;
+      var id = data[i].id;
+      var price = data[i].pris;
+      var html = bilde += "<h1>" + ctg + "</h1>" + "<p>" + price + ",-" +"</p>";
+
+      liste.addElement(html, id);
+    }
+
+    liste.addEventListener("change", onlistchange);
+  }
+
+  function fail(error) {
+      console.log("error");
+  }
+
+  function onlistchange(evt) {
+
+      var id = evt.selectedValue;
+      console.log(id);
+
+      var dataToStore = JSON.stringify(id);
+      localStorage.setItem('selectedplant', dataToStore);
+
+
+      window.location.href = "showInfo.html";
+  }
+
+
+</script>
+
+</html>

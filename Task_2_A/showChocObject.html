@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chocolate info</title>
+    <script src="superfetch.js"></script>
+</head>
+
+<body>
+
+</body>
+
+<script>
+
+//Use showChocObject.html as a starting point.
+//The script retrieves JSON-data from http://sukkergris.no/choco/?id=22
+//The result is an object with information about a chocolate with id = 22.
+//Show the data (image, name and description) using the second method in showdata.html
+
+
+    // init -----------------------------------------------------
+    fetch("http://sukkergris.no/choco/?id=22").then(function(response){
+        //1. stage - if response is ok, start loading the json-data (stream)
+
+        if (response.ok) {
+            return response.json(); //load json
+        } else {
+            throw new Error("something went wrong!");
+        }
+
+    }).then(function(data){
+        // 2. stage - finished loading the data
+        console.log(data);
+        //code here...
+        var htmlString = " ";
+
+        htmlString += "<img src='" + data.img_small + "'>";
+        htmlString += "<h1>" + data.name + "</h1>";
+        htmlString += "<p>" + data.description + "</p>";
+
+        document.body.innerHTML += htmlString;
+
+    }).catch(function(error){
+
+        console.log(error);
+
+    }); //end fetch
+
+
+
+</script>
+
+</html>

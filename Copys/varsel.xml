@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<weatherdata>
+  <location>
+    <name>Abelnes</name>
+    <type>Bygd</type>
+    <country>Norge</country>
+    <timezone id="Europe/Oslo" utcoffsetMinutes="120" />
+    <location altitude="4" latitude="58.2398225080986" longitude="6.64902905222746" geobase="ssr" geobaseid="261" />
+  </location>
+  <credit>
+    <!--For å bruke gratis værdata fra Yr, MÅ du vise følgende tekst godt synlig på nettsiden din. Teksten skal være en lenke til URL-en som er spesifisert.-->
+    <!--Les mer om vilkår for bruk av gratis værdata + retningslinjer på 
+http://om.yr.no/verdata/ -->
+    <link text="Værvarsel fra Yr, levert av NRK og Meteorologisk institutt" url="http://www.yr.no/sted/Norge/Vest-Agder/Flekkefjord/Abelnes/" />
+  </credit>
+  <links>
+    <link id="xmlSource" url="http://www.yr.no/sted/Norge/Vest-Agder/Flekkefjord/Abelnes/varsel.xml" />
+    <link id="xmlSourceHourByHour" url="http://www.yr.no/sted/Norge/Vest-Agder/Flekkefjord/Abelnes/varsel_time_for_time.xml" />
+    <link id="overview" url="http://www.yr.no/sted/Norge/Vest-Agder/Flekkefjord/Abelnes/" />
+    <link id="hourByHour" url="http://www.yr.no/sted/Norge/Vest-Agder/Flekkefjord/Abelnes/time_for_time.html" />
+    <link id="longTermForecast" url="http://www.yr.no/sted/Norge/Vest-Agder/Flekkefjord/Abelnes/langtidsvarsel.html" />
+    <link id="radar" url="http://www.yr.no/sted/Norge/Vest-Agder/Flekkefjord/Abelnes/radar.html" />
+    <link id="nowcast" url="http://www.yr.no/sted/Norge/Vest-Agder/Flekkefjord/Abelnes/varsel_nu.xml" />
+  </links>
+  <meta>
+    <lastupdate>2017-10-02T16:29:42</lastupdate>
+    <nextupdate>2017-10-03T00:00:00</nextupdate>
+  </meta>
+  <sun rise="2017-10-02T07:40:09" set="2017-10-02T19:04:02" />
+  <forecast>
+    <text>
+      <location name="Abelnes">
+        <time from="2017-10-02" to="2017-10-02">
+          <title>mandag</title>
+          <body>&lt;strong&gt;Agder:&lt;/strong&gt; Sørvest liten kuling på kysten, i kveld dreiende vestlig og økende til stiv kuling vest for Oksøy, sterk kuling vest for Lindesnes. Regnbyger, lokalt kraftige regnbyger, kan hende med torden. &lt;strong&gt;Lyngør - Åna Sira:&lt;/strong&gt; Sørvestlig liten kuling 12, i kveld dreiende vestlig og økende til stiv kuling 15 vest for Oksøy, sterk kuling 20 vest for Lindesnes. Regnbyger, lokalt kraftige regnbyger, kan hende med torden. Bølgehøyde: 3-4 m. I ettermiddag 2-3 m. I kveld 2-4 m, høyest i vest.</body>
+        </time>
+        <time from="2017-10-02" to="2017-10-02">
+          <title>mandag</title>
+          <body>&lt;strong&gt;Agder:&lt;/strong&gt; Sørvest liten kuling på kysten, i kveld dreiende vestlig og økende til stiv kuling vest for Oksøy, sterk kuling vest for Lindesnes. Regnbyger, lokalt kraftige regnbyger, kan hende med torden. &lt;strong&gt;Lyngør - Åna Sira:&lt;/strong&gt; Sørvestlig liten kuling 12, i kveld dreiende vestlig og økende til stiv kuling 15 vest for Oksøy, sterk kuling 20 vest for Lindesnes. Regnbyger, lokalt kraftige regnbyger, kan hende med torden. Bølgehøyde: 3-4 m. I ettermiddag 2-3 m. I kveld 2-4 m, høyest i vest.</body>
+        </time>
+        <time from="2017-10-03" to="2017-10-03">
+          <title>tirsdag</title>
+          <body>&lt;strong&gt;Sørlandet:&lt;/strong&gt; Vestlig liten kuling utsatte steder, på kysten vest for Lindesnes sterk kuling ettermiddagen dreiende nordvest. Regnbyger, vesentlig i vest. Perioder med sol i øst. &lt;strong&gt;Oksøy - Åna Sira:&lt;/strong&gt; Vestlig stiv kuling 15, vest for Lindesnes sterk kuling 20, om ettermiddagen dreiende nordvestlig. Skiftende skydekke. Regnbyger. Moderat sikt i byger. Bølgehøyde: 2-4 m, fra om ettermiddagen 3-5 m vest for Lindesnes.</body>
+        </time>
+        <time from="2017-10-03" to="2017-10-03">
+          <title>tirsdag</title>
+          <body>&lt;strong&gt;Sørlandet:&lt;/strong&gt; Vestlig liten kuling utsatte steder, på kysten vest for Lindesnes sterk kuling ettermiddagen dreiende nordvest. Regnbyger, vesentlig i vest. Perioder med sol i øst. &lt;strong&gt;Oksøy - Åna Sira:&lt;/strong&gt; Vestlig stiv kuling 15, vest for Lindesnes sterk kuling 20, om ettermiddagen dreiende nordvestlig. Skiftende skydekke. Regnbyger. Moderat sikt i byger. Bølgehøyde: 2-4 m, fra om ettermiddagen 3-5 m vest for Lindesnes.</body>
+        </time>
+        <time from="2017-10-04" to="2017-10-04">
+          <title>onsdag</title>
+          <body>&lt;strong&gt;Agder:&lt;/strong&gt; Vest og sørvest frisk bris, liten kuling på kysten, stiv kuling vest for Oksøy, fra om ettermiddagen sterk kuling vest for Lindesnes. Regnbyger, vesentlig i vest. Fra om formiddagen regn i hele området, om kvelden overgang til regnbyger igjen, vesentlig i vest.</body>
+        </time>
+        <time from="2017-10-05" to="2017-10-05">
+          <title>torsdag</title>
+          <body>&lt;strong&gt;Sørlandet:&lt;/strong&gt; Vest og nordvest bris. Litt spredt regn i nord og i Vest-Agder tidlig på dagen, ellers stort sett oppholdsvær. For det meste skyet i nord, lettere skydekke og en del sol i sør.</body>
+        </time>
+      </location>
+    </text>
+    <tabular>
+      <time from="2017-10-02T22:00:00" to="2017-10-03T00:00:00" period="3">
+        <!-- Valid from 2017-10-02T22:00:00 to 2017-10-03T00:00:00 -->
+        <symbol number="9" numberEx="9" name="Regn" var="09" />
+        <precipitation value="1.1" minvalue="0.6" maxvalue="1.7" />
+        <!-- Valid at 2017-10-02T22:00:00 -->
+        <windDirection deg="262.9" code="W" name="Vest" />
+        <windSpeed mps="11.0" name="Liten kuling" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="994.7" />
+      </time>
+      <time from="2017-10-03T00:00:00" to="2017-10-03T06:00:00" period="0">
+        <!-- Valid from 2017-10-03T00:00:00 to 2017-10-03T06:00:00 -->
+        <symbol number="9" numberEx="46" name="Lett regn" var="46" />
+        <precipitation value="0.9" minvalue="0.1" maxvalue="2.4" />
+        <!-- Valid at 2017-10-03T00:00:00 -->
+        <windDirection deg="264.9" code="W" name="Vest" />
+        <windSpeed mps="11.6" name="Liten kuling" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="995.0" />
+      </time>
+      <time from="2017-10-03T06:00:00" to="2017-10-03T12:00:00" period="1">
+        <!-- Valid from 2017-10-03T06:00:00 to 2017-10-03T12:00:00 -->
+        <symbol number="9" numberEx="9" name="Regn" var="09" />
+        <precipitation value="3.0" minvalue="1.7" maxvalue="5.1" />
+        <!-- Valid at 2017-10-03T06:00:00 -->
+        <windDirection deg="259.0" code="W" name="Vest" />
+        <windSpeed mps="13.5" name="Liten kuling" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="995.2" />
+      </time>
+      <time from="2017-10-03T12:00:00" to="2017-10-03T18:00:00" period="2">
+        <!-- Valid from 2017-10-03T12:00:00 to 2017-10-03T18:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" minvalue="0" maxvalue="0.7" />
+        <!-- Valid at 2017-10-03T12:00:00 -->
+        <windDirection deg="293.1" code="WNW" name="Vest-nordvest" />
+        <windSpeed mps="9.6" name="Frisk bris" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="997.9" />
+      </time>
+      <time from="2017-10-03T18:00:00" to="2017-10-04T00:00:00" period="3">
+        <!-- Valid from 2017-10-03T18:00:00 to 2017-10-04T00:00:00 -->
+        <symbol number="5" numberEx="40" name="Lette regnbyger" var="40n" />
+        <precipitation value="0.9" minvalue="0.2" maxvalue="1.9" />
+        <!-- Valid at 2017-10-03T18:00:00 -->
+        <windDirection deg="295.0" code="WNW" name="Vest-nordvest" />
+        <windSpeed mps="9.8" name="Frisk bris" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1004.7" />
+      </time>
+      <time from="2017-10-04T00:00:00" to="2017-10-04T06:00:00" period="0">
+        <!-- Valid from 2017-10-04T00:00:00 to 2017-10-04T06:00:00 -->
+        <symbol number="9" numberEx="9" name="Regn" var="09" />
+        <precipitation value="1.7" minvalue="0.8" maxvalue="3.0" />
+        <!-- Valid at 2017-10-04T00:00:00 -->
+        <windDirection deg="286.4" code="WNW" name="Vest-nordvest" />
+        <windSpeed mps="11.8" name="Liten kuling" />
+        <temperature unit="celsius" value="11" />
+        <pressure unit="hPa" value="1006.2" />
+      </time>
+      <time from="2017-10-04T06:00:00" to="2017-10-04T12:00:00" period="1">
+        <!-- Valid from 2017-10-04T06:00:00 to 2017-10-04T12:00:00 -->
+        <symbol number="9" numberEx="9" name="Regn" var="09" />
+        <precipitation value="4.0" minvalue="1.8" maxvalue="6.7" />
+        <!-- Valid at 2017-10-04T06:00:00 -->
+        <windDirection deg="263.0" code="W" name="Vest" />
+        <windSpeed mps="10.5" name="Frisk bris" />
+        <temperature unit="celsius" value="11" />
+        <pressure unit="hPa" value="1005.2" />
+      </time>
+      <time from="2017-10-04T12:00:00" to="2017-10-04T18:00:00" period="2">
+        <!-- Valid from 2017-10-04T12:00:00 to 2017-10-04T18:00:00 -->
+        <symbol number="9" numberEx="9" name="Regn" var="09" />
+        <precipitation value="4.3" minvalue="1.7" maxvalue="8.0" />
+        <!-- Valid at 2017-10-04T12:00:00 -->
+        <windDirection deg="244.9" code="WSW" name="Vest-sørvest" />
+        <windSpeed mps="10.3" name="Frisk bris" />
+        <temperature unit="celsius" value="11" />
+        <pressure unit="hPa" value="999.3" />
+      </time>
+      <time from="2017-10-04T18:00:00" to="2017-10-05T00:00:00" period="3">
+        <!-- Valid from 2017-10-04T18:00:00 to 2017-10-05T00:00:00 -->
+        <symbol number="5" numberEx="5" name="Regnbyger" var="05n" />
+        <precipitation value="3.7" minvalue="1.2" maxvalue="7.8" />
+        <!-- Valid at 2017-10-04T18:00:00 -->
+        <windDirection deg="277.8" code="W" name="Vest" />
+        <windSpeed mps="10.7" name="Frisk bris" />
+        <temperature unit="celsius" value="10" />
+        <pressure unit="hPa" value="997.5" />
+      </time>
+      <time from="2017-10-05T00:00:00" to="2017-10-05T06:00:00" period="0">
+        <!-- Valid from 2017-10-05T00:00:00 to 2017-10-05T06:00:00 -->
+        <symbol number="5" numberEx="41" name="Kraftige regnbyger" var="41n" />
+        <precipitation value="6.9" minvalue="3.8" maxvalue="9.9" />
+        <!-- Valid at 2017-10-05T00:00:00 -->
+        <windDirection deg="307.7" code="NW" name="Nordvest" />
+        <windSpeed mps="10.3" name="Frisk bris" />
+        <temperature unit="celsius" value="9" />
+        <pressure unit="hPa" value="995.9" />
+      </time>
+      <time from="2017-10-05T08:00:00" to="2017-10-05T14:00:00" period="1">
+        <!-- Valid from 2017-10-05T08:00:00 to 2017-10-05T14:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-05T08:00:00 -->
+        <windDirection deg="306.9" code="NW" name="Nordvest" />
+        <windSpeed mps="3.9" name="Lett bris" />
+        <temperature unit="celsius" value="7" />
+        <pressure unit="hPa" value="994.9" />
+      </time>
+      <time from="2017-10-05T14:00:00" to="2017-10-05T20:00:00" period="2">
+        <!-- Valid from 2017-10-05T14:00:00 to 2017-10-05T20:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-05T14:00:00 -->
+        <windDirection deg="321.7" code="NW" name="Nordvest" />
+        <windSpeed mps="6.6" name="Laber bris" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="993.8" />
+      </time>
+      <time from="2017-10-05T20:00:00" to="2017-10-06T02:00:00" period="3">
+        <!-- Valid from 2017-10-05T20:00:00 to 2017-10-06T02:00:00 -->
+        <symbol number="1" numberEx="1" name="Klarvær" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-05T20:00:00 -->
+        <windDirection deg="326.2" code="NW" name="Nordvest" />
+        <windSpeed mps="5.3" name="Lett bris" />
+        <temperature unit="celsius" value="9" />
+        <pressure unit="hPa" value="997.0" />
+      </time>
+      <time from="2017-10-06T02:00:00" to="2017-10-06T08:00:00" period="0">
+        <!-- Valid from 2017-10-06T02:00:00 to 2017-10-06T08:00:00 -->
+        <symbol number="1" numberEx="1" name="Klarvær" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-06T02:00:00 -->
+        <windDirection deg="332.4" code="NNW" name="Nord-nordvest" />
+        <windSpeed mps="5.5" name="Laber bris" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1000.2" />
+      </time>
+      <time from="2017-10-06T08:00:00" to="2017-10-06T14:00:00" period="1">
+        <!-- Valid from 2017-10-06T08:00:00 to 2017-10-06T14:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-06T08:00:00 -->
+        <windDirection deg="311.0" code="NW" name="Nordvest" />
+        <windSpeed mps="6.1" name="Laber bris" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1002.1" />
+      </time>
+      <time from="2017-10-06T14:00:00" to="2017-10-06T20:00:00" period="2">
+        <!-- Valid from 2017-10-06T14:00:00 to 2017-10-06T20:00:00 -->
+        <symbol number="1" numberEx="1" name="Klarvær" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-06T14:00:00 -->
+        <windDirection deg="337.0" code="NNW" name="Nord-nordvest" />
+        <windSpeed mps="6.6" name="Laber bris" />
+        <temperature unit="celsius" value="14" />
+        <pressure unit="hPa" value="1005.1" />
+      </time>
+      <time from="2017-10-06T20:00:00" to="2017-10-07T02:00:00" period="3">
+        <!-- Valid from 2017-10-06T20:00:00 to 2017-10-07T02:00:00 -->
+        <symbol number="1" numberEx="1" name="Klarvær" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-06T20:00:00 -->
+        <windDirection deg="310.7" code="NW" name="Nordvest" />
+        <windSpeed mps="5.5" name="Laber bris" />
+        <temperature unit="celsius" value="10" />
+        <pressure unit="hPa" value="1006.7" />
+      </time>
+      <time from="2017-10-07T02:00:00" to="2017-10-07T08:00:00" period="0">
+        <!-- Valid from 2017-10-07T02:00:00 to 2017-10-07T08:00:00 -->
+        <symbol number="1" numberEx="1" name="Klarvær" var="01n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-07T02:00:00 -->
+        <windDirection deg="3.9" code="N" name="Nord" />
+        <windSpeed mps="3.7" name="Lett bris" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1008.2" />
+      </time>
+      <time from="2017-10-07T08:00:00" to="2017-10-07T14:00:00" period="1">
+        <!-- Valid from 2017-10-07T08:00:00 to 2017-10-07T14:00:00 -->
+        <symbol number="1" numberEx="1" name="Klarvær" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-07T08:00:00 -->
+        <windDirection deg="38.7" code="NE" name="Nordøst" />
+        <windSpeed mps="2.9" name="Svak vind" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1009.5" />
+      </time>
+      <time from="2017-10-07T14:00:00" to="2017-10-07T20:00:00" period="2">
+        <!-- Valid from 2017-10-07T14:00:00 to 2017-10-07T20:00:00 -->
+        <symbol number="1" numberEx="1" name="Klarvær" var="01d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-07T14:00:00 -->
+        <windDirection deg="334.2" code="NNW" name="Nord-nordvest" />
+        <windSpeed mps="2.4" name="Svak vind" />
+        <temperature unit="celsius" value="14" />
+        <pressure unit="hPa" value="1011.4" />
+      </time>
+      <time from="2017-10-07T20:00:00" to="2017-10-08T02:00:00" period="3">
+        <!-- Valid from 2017-10-07T20:00:00 to 2017-10-08T02:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-07T20:00:00 -->
+        <windDirection deg="329.1" code="NNW" name="Nord-nordvest" />
+        <windSpeed mps="2.0" name="Svak vind" />
+        <temperature unit="celsius" value="9" />
+        <pressure unit="hPa" value="1013.0" />
+      </time>
+      <time from="2017-10-08T02:00:00" to="2017-10-08T08:00:00" period="0">
+        <!-- Valid from 2017-10-08T02:00:00 to 2017-10-08T08:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-08T02:00:00 -->
+        <windDirection deg="358.9" code="N" name="Nord" />
+        <windSpeed mps="2.2" name="Svak vind" />
+        <temperature unit="celsius" value="6" />
+        <pressure unit="hPa" value="1013.9" />
+      </time>
+      <time from="2017-10-08T08:00:00" to="2017-10-08T14:00:00" period="1">
+        <!-- Valid from 2017-10-08T08:00:00 to 2017-10-08T14:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-08T08:00:00 -->
+        <windDirection deg="62.9" code="ENE" name="Øst-nordøst" />
+        <windSpeed mps="2.3" name="Svak vind" />
+        <temperature unit="celsius" value="5" />
+        <pressure unit="hPa" value="1014.4" />
+      </time>
+      <time from="2017-10-08T14:00:00" to="2017-10-08T20:00:00" period="2">
+        <!-- Valid from 2017-10-08T14:00:00 to 2017-10-08T20:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-08T14:00:00 -->
+        <windDirection deg="244.0" code="WSW" name="Vest-sørvest" />
+        <windSpeed mps="3.0" name="Svak vind" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1015.3" />
+      </time>
+      <time from="2017-10-08T20:00:00" to="2017-10-09T02:00:00" period="3">
+        <!-- Valid from 2017-10-08T20:00:00 to 2017-10-09T02:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-08T20:00:00 -->
+        <windDirection deg="55.8" code="NE" name="Nordøst" />
+        <windSpeed mps="1.9" name="Svak vind" />
+        <temperature unit="celsius" value="9" />
+        <pressure unit="hPa" value="1015.9" />
+      </time>
+      <time from="2017-10-09T02:00:00" to="2017-10-09T08:00:00" period="0">
+        <!-- Valid from 2017-10-09T02:00:00 to 2017-10-09T08:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-09T02:00:00 -->
+        <windDirection deg="94.2" code="E" name="Øst" />
+        <windSpeed mps="2.5" name="Svak vind" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1017.5" />
+      </time>
+      <time from="2017-10-09T08:00:00" to="2017-10-09T14:00:00" period="1">
+        <!-- Valid from 2017-10-09T08:00:00 to 2017-10-09T14:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-09T08:00:00 -->
+        <windDirection deg="65.9" code="ENE" name="Øst-nordøst" />
+        <windSpeed mps="2.7" name="Svak vind" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1017.6" />
+      </time>
+      <time from="2017-10-09T14:00:00" to="2017-10-09T20:00:00" period="2">
+        <!-- Valid from 2017-10-09T14:00:00 to 2017-10-09T20:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-09T14:00:00 -->
+        <windDirection deg="300.0" code="WNW" name="Vest-nordvest" />
+        <windSpeed mps="4.0" name="Lett bris" />
+        <temperature unit="celsius" value="13" />
+        <pressure unit="hPa" value="1017.8" />
+      </time>
+      <time from="2017-10-09T20:00:00" to="2017-10-10T02:00:00" period="3">
+        <!-- Valid from 2017-10-09T20:00:00 to 2017-10-10T02:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-09T20:00:00 -->
+        <windDirection deg="284.0" code="WNW" name="Vest-nordvest" />
+        <windSpeed mps="2.6" name="Svak vind" />
+        <temperature unit="celsius" value="10" />
+        <pressure unit="hPa" value="1017.3" />
+      </time>
+      <time from="2017-10-10T02:00:00" to="2017-10-10T08:00:00" period="0">
+        <!-- Valid from 2017-10-10T02:00:00 to 2017-10-10T08:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03n" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-10T02:00:00 -->
+        <windDirection deg="235.1" code="SW" name="Sørvest" />
+        <windSpeed mps="2.3" name="Svak vind" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1019.7" />
+      </time>
+      <time from="2017-10-10T08:00:00" to="2017-10-10T14:00:00" period="1">
+        <!-- Valid from 2017-10-10T08:00:00 to 2017-10-10T14:00:00 -->
+        <symbol number="3" numberEx="3" name="Delvis skyet" var="03d" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-10T08:00:00 -->
+        <windDirection deg="70.8" code="ENE" name="Øst-nordøst" />
+        <windSpeed mps="3.6" name="Lett bris" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1017.8" />
+      </time>
+      <time from="2017-10-10T14:00:00" to="2017-10-10T20:00:00" period="2">
+        <!-- Valid from 2017-10-10T14:00:00 to 2017-10-10T20:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-10T14:00:00 -->
+        <windDirection deg="136.5" code="SE" name="Sørøst" />
+        <windSpeed mps="4.5" name="Lett bris" />
+        <temperature unit="celsius" value="12" />
+        <pressure unit="hPa" value="1017.6" />
+      </time>
+      <time from="2017-10-10T20:00:00" to="2017-10-11T02:00:00" period="3">
+        <!-- Valid from 2017-10-10T20:00:00 to 2017-10-11T02:00:00 -->
+        <symbol number="9" numberEx="9" name="Regn" var="09" />
+        <precipitation value="2.8" />
+        <!-- Valid at 2017-10-10T20:00:00 -->
+        <windDirection deg="103.0" code="ESE" name="Øst-sørøst" />
+        <windSpeed mps="6.2" name="Laber bris" />
+        <temperature unit="celsius" value="11" />
+        <pressure unit="hPa" value="1005.7" />
+      </time>
+      <time from="2017-10-11T02:00:00" to="2017-10-11T08:00:00" period="0">
+        <!-- Valid from 2017-10-11T02:00:00 to 2017-10-11T08:00:00 -->
+        <symbol number="9" numberEx="9" name="Regn" var="09" />
+        <precipitation value="3.1" />
+        <!-- Valid at 2017-10-11T02:00:00 -->
+        <windDirection deg="153.1" code="SSE" name="Sør-sørøst" />
+        <windSpeed mps="6.6" name="Laber bris" />
+        <temperature unit="celsius" value="10" />
+        <pressure unit="hPa" value="1005.3" />
+      </time>
+      <time from="2017-10-11T08:00:00" to="2017-10-11T14:00:00" period="1">
+        <!-- Valid from 2017-10-11T08:00:00 to 2017-10-11T14:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-11T08:00:00 -->
+        <windDirection deg="296.5" code="WNW" name="Vest-nordvest" />
+        <windSpeed mps="4.0" name="Lett bris" />
+        <temperature unit="celsius" value="8" />
+        <pressure unit="hPa" value="1014.2" />
+      </time>
+      <time from="2017-10-11T14:00:00" to="2017-10-11T20:00:00" period="2">
+        <!-- Valid from 2017-10-11T14:00:00 to 2017-10-11T20:00:00 -->
+        <symbol number="4" numberEx="4" name="Skyet" var="04" />
+        <precipitation value="0" />
+        <!-- Valid at 2017-10-11T14:00:00 -->
+        <windDirection deg="273.9" code="W" name="Vest" />
+        <windSpeed mps="6.1" name="Laber bris" />
+        <temperature unit="celsius" value="11" />
+        <pressure unit="hPa" value="1013.2" />
+      </time>
+    </tabular>
+  </forecast>
+  <observations>
+    <weatherstation stno="42160" sttype="eklima" name="Lista fyr" distance="15317" lat="58.10900" lon="6.56750" source="Meteorologisk Institutt">
+      <symbol number="4" name="Skyet" time="2017-10-02T18:00:00Z" />
+      <temperature unit="celsius" value="13.2" time="2017-10-02T19:00:00Z" />
+      <windDirection deg="261.0" code="W" name="Vest" time="2017-10-02T19:00:00Z" />
+      <windSpeed mps="12.4" name="Liten kuling" time="2017-10-02T19:00:00Z" />
+    </weatherstation>
+    <weatherstation stno="41825" sttype="eklima" name="Lyngdal" distance="26730" lat="58.12580" lon="7.05030" source="Meteorologisk Institutt">
+      <temperature unit="celsius" value="11.9" time="2017-10-02T18:00:00Z" />
+    </weatherstation>
+    <weatherstation stno="43010" sttype="eklima" name="Eik" distance="30890" lat="58.50700" lon="6.50450" source="Meteorologisk Institutt">
+      <symbol number="5" name="Regnbyger" time="2017-10-02T18:00:00Z" />
+      <temperature unit="celsius" value="10.0" time="2017-10-02T19:00:00Z" />
+      <windDirection deg="313.0" code="NW" name="Nordvest" time="2017-10-02T19:00:00Z" />
+      <windSpeed mps="1.5" name="Flau vind" time="2017-10-02T19:00:00Z" />
+    </weatherstation>
+  </observations>
+</weatherdata>

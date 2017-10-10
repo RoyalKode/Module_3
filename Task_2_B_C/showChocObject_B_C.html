@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Chocolate info</title>
+    <script src="superfetch.js"></script>
+</head>
+
+<body>
+
+  <div class="clientInput">
+    <input id="input" value="ID"></input>
+    <button onclick="onClick()" id="btn">Get choco</button>
+  </div>
+
+</body>
+  <style>
+    .clientInput {
+      margin: 10px;
+    }
+  </style>
+<script>
+
+
+    // init -----------------------------------------------------
+
+  function onClick() {
+
+    var id = document.getElementById('input').value;
+    console.log(id);
+
+  //retrieves the selected id..
+    superfetch("http://sukkergris.no/choco/?id=" + id, "json", success, fail);
+    }
+
+
+    function success(data) {
+      var htmlString = " ";
+
+      htmlString += "<img src='" + data.img_small + "'>";
+      htmlString += "<h1>" + data.name + "</h1>";
+      htmlString += "<p>" + data.description + "</p>";
+
+      document.body.innerHTML += htmlString;
+
+    }
+    function fail(error) {
+
+    }
+
+</script>
+
+</html>
